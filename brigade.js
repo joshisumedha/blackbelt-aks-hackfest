@@ -60,7 +60,7 @@ function kubeJobRunner (config, k) {
     k.storage.enabled = false
     k.image = "lachlanevenson/k8s-kubectl:v1.8.2"
     k.tasks = [
-        `kubectl set image deployment/heroes-web-deploy heroes-web-cntnr=containerregistrysj.azurecr.io/app-web:${config.get("imageTag")}`
+        `kubectl set image deployment/app-web-deploy app-web-cntnr=containerregistrysj.azurecr.io/app-web:${config.get("imageTag")}`
     ]
 }
 
