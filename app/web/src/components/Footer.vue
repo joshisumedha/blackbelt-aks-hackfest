@@ -14,7 +14,7 @@
       <div class="col-lg-6">
       </div>
       <div class="col-lg-12 credits">
-        Azure CI DI Sumedha
+        Final change CI CD Sumedha
       </div>
       <div class="col-lg-6">
       </div>
